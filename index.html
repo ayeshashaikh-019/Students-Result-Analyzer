@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Analysis</title>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Marks Analysis</h1>
+        <p class="subtitle">
+            Data Mining | Web Programming | Operating Systems
+        </p>
+
+        <!-- Student Reports -->
+        <section>
+            <h2>Student Reports</h2>
+
+            <div id="studentReports" class="student-grid">
+                <!-- JavaScript will insert student cards here -->
+            </div>
+        </section>
+
+        <!-- Class Report -->
+        <section class="class-section">
+            <h2>Class Report</h2>
+
+            <div class="class-report">
+
+                <div class="summary-box">
+                    <h3>Class Average</h3>
+                    <p id="classAverage">0%</p>
+                </div>
+
+                <div class="summary-box">
+                    <h3>Highest Percentage</h3>
+                    <p id="highestPercentage">0%</p>
+                </div>
+
+                <div class="summary-box">
+                    <h3>Lowest Percentage</h3>
+                    <p id="lowestPercentage">0%</p>
+                </div>
+
+                <div class="summary-box pass-box">
+                    <h3>Students Passed</h3>
+                    <p id="passedStudents">0</p>
+                </div>
+
+                <div class="summary-box fail-box">
+                    <h3>Students Failed</h3>
+                    <p id="failedStudents">0</p>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
